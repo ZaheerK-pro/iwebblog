@@ -1,0 +1,114 @@
+:root {
+    --main-color: #f7e9d7;
+    --main-color2: #4dbbdf;    
+}
+
+.about-me {
+    width: 80vw;
+    /* height: 500px; */
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me img {
+    height: 123px;
+    object-fit: cover;
+    padding: 10px 0;
+    border: 1px solid white;
+    border-radius: 80px;
+}
+
+.my-info {
+    margin: 0 -60px;
+}
+
+.my-info span {
+    font-size: 25px;
+    color: var(--main-color2);
+    padding: 0 65px;
+}
+
+.my-info div{
+    font-weight: bolder;
+    /* margin-left: 15px; */
+}
+.my-info a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+
+.social {
+    margin-left: 45px;
+    margin-top: 4px;
+    color: var(--main-color2);
+}
+
+.social div {
+    padding: 0 10px;
+}
+
+.hr-pad {
+    padding-top: 50px;
+}
+
+.footer-content {
+    background-color: rgb(220, 220, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.footer-content p span {
+    font-size: 22px;
+}
+
+.links {
+    /* height: 323px; */
+    width: 323px;
+    /* background-color: var(--main-color2); */
+    padding: 5px;
+
+}
+
+.links div {
+    padding: 20px;
+    color: black;
+}
+
+.links div a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.other {
+    /* height: 323px; */
+    width: 324px;
+    padding: 20px;
+}
+
+.other .other-social {
+    font-size:  30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.other .other-social div {
+    padding: 6px 20px;
+}
+
+.m-pad2 {
+    padding-top: 200px;
+}

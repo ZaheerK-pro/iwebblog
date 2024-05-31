@@ -1,0 +1,160 @@
+:root {
+    --main-color: #f7e9d7;
+    --main-color2: rgb(77, 187, 223);    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(238, 241, 241); */
+}
+
+.navigation {
+    margin-top: 25px;
+    /* margin-bottom: 5px; */
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-bottom: 3px;
+    color: var(--main-color2);
+}
+
+.nav-left a {
+    text-decoration: none;
+}
+.nav-left span:hover {
+    /* padding-bottom: 5px; */
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.nav-left ul li:hover {
+    color: black;
+    border-bottom: 4px solid var(--main-color2);
+    font-weight: bold;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-headline h1 {
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    /* background-color: var(--main-color); */
+    margin-top: 12px;
+    padding: 8px;
+    position: relative;
+}
+
+.content-left {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .content-left .blog-headline {
+    color: var(--main-color2);
+    padding-bottom: 180px;
+    margin: -135px 0px;
+} */
+
+.content-right img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+.home-articles {
+    /* height: 870px; */
+    padding-top: 12px;
+    /* background-color: var(--main-color); */
+    position: relative;
+}
+
+/* .year-box {
+    position: absolute;
+    width: 234px;
+    height: 255px;
+    background-color: red; 
+    right: 0%;
+    top: 120px;
+}
+
+.year-box h3 { 
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 4px;
+}
+.year-box input {
+
+} */
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: var(--main-color2);
+}
+
+.footer {
+    font-weight: 400;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+:root {
+    --main-color: #f7e9d7;
+    --main-color2: #4dbbdf;    
+}
+
+.blogspot-img {
+    height: 404px;
+    overflow: hidden;
+    /* background-color: var(--main-color); */
+}
+
+.blogspot-img img {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.blog-spot-content h1{
+    text-align: center;
+    padding-bottom: 12px;
+    color: var(--main-color2);
+}
+
+div h2 {
+    color: var(--main-color2);
+    padding-left: 27px;
+}
+
+.blog-spot-content p {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.more-post {
+    flex-direction: column;
+}
+
+.blogspot-meta {
+    /* background-color: var(--main-color); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info {
+    padding: 12px 0px;
+    /* cursor: pointer; */
+}
+
+.author-info div {
+    padding: 4px 0px;
+}
+
+.social {
+    padding: 9px 10px;
+    cursor: pointer;
+}
+
+.social div {
+    padding: 5px;
+}

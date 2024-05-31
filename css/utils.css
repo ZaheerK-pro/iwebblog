@@ -1,0 +1,67 @@
+:root {
+    --main-color: rgb(247, 248, 190);
+}
+
+.max-width-1 {
+  width: 80vw;
+}
+
+.max-width-2 {
+  width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.m-pad {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    padding: 3px 15px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--main-color2);
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(130, 215, 243);
+}
+
+.form-input {
+    padding: 3px 5px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    width: 300px;
+    outline: none;
+}
+.form-input::placeholder {
+  font-size: 12px;
+}
+
+.form-box input, textarea {
+  width: 52vw;
+  padding: 7px 4px;
+  margin: 7px 0;
+  border: 1.5px solid var(--main-color2);
+  border-radius: 4px;
+}
+
+.form-box button {
+  width: 10vw;  
+}

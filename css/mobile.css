@@ -1,0 +1,95 @@
+@media screen and (max-width: 1300px) {
+    .navigation {
+        flex-direction: column;
+        margin: 34px;
+    }
+    
+    .nav-left {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-right {
+        display: none
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article-img {
+        text-align: center;
+    }
+
+    .home-article img {
+        width: 70vw;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+    .form-box input, textarea {
+        width: 66vw;
+    }
+
+    .form-box button {
+        width: 30vw;
+    }
+
+    .nav-right {
+    margin-top: 14px;
+    }
+
+    .form-input {
+        width: 44%;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .blogspot-img {
+        height: auto;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+.about-me {
+    flex-direction: column;   
+}
+
+.about-me .my-img {
+    padding: 5px 0;
+    margin-left: 75px;
+}
+
+.footer-content {
+    flex-direction: column;
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .footer-content .links {
+        padding: 0;
+    }
+    .footer-content .other {
+        padding: 0;
+    }
+    .form-input{
+        margin-left: 10px;
+        width: 150px;
+    }
+    
+}
